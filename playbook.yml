@@ -16,7 +16,7 @@
 
   - name: Creating a haproxy.ini file
     copy:
-      dest: "/vagrant/haproxy.ini"
+      dest: "/vagrant/logstash.ini"
       content: |
         [general]
         uniqueID={{ id }}
